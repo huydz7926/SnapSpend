@@ -12,10 +12,10 @@ SnapSpend hướng đến việc ghi nhớ một khoản chi qua cả số tiề
 
 ## Demo
 <p align="center">
-  <img src="Docs/Screenshots/TrangChu.png" width="220" alt="Trang chủ" />
-  <img src="Docs/Screenshots/Camera.png" width="220" alt="Thêm chi tiêu" />
-  <img src="Docs/Screenshots/KyNiem.png" width="220" alt="Nhật ký ảnh" />
-  <img src="Docs/Screenshots/NganSach.png" width="220" alt="Ngân sách" />
+  <img src="Docs/Screenshots/TrangChu.jpg" width="220" alt="Trang chủ" />
+  <img src="Docs/Screenshots/Camera.jpg" width="220" alt="Thêm chi tiêu" />
+  <img src="Docs/Screenshots/KyNiem.jpg" width="220" alt="Nhật ký ảnh" />
+  <img src="Docs/Screenshots/NganSach.jpg" width="220" alt="Ngân sách" />
 </p>
 
 Các luồng hoạt động chính trong ứng dụng:
