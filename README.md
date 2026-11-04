@@ -11,12 +11,24 @@ SnapSpend hướng đến việc ghi nhớ một khoản chi qua cả số tiề
 ---
 
 ## Demo
-<p align="center">
-  <img src="Docs/Screenshots/TrangChu.jpg" width="220" alt="Trang chủ" />
-  <img src="Docs/Screenshots/Camera.jpg" width="220" alt="Thêm chi tiêu" />
-  <img src="Docs/Screenshots/KyNiem.jpg" width="220" alt="Nhật ký ảnh" />
-  <img src="Docs/Screenshots/NganSach.jpg" width="220" alt="Ngân sách" />
-</p>
+<table>
+  <tr>
+    <td align="center"><b>Trang chủ</b></td>
+    <td align="center"><b>Thêm chi tiêu</b></td>
+  </tr>
+  <tr>
+    <td><img src="Docs/Screenshots/TrangChu.jpg" width="280" alt="Trang chủ" /></td>
+    <td><img src="Docs/Screenshots/Camera.jpg" width="280" alt="Thêm chi tiêu" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Nhật ký ảnh</b></td>
+    <td align="center"><b>Ngân sách</b></td>
+  </tr>
+  <tr>
+    <td><img src="Docs/Screenshots/KyNiem.jpg" width="280" alt="Nhật ký ảnh" /></td>
+    <td><img src="Docs/Screenshots/NganSach.jpg" width="280" alt="Ngân sách" /></td>
+  </tr>
+</table>
 
 Các luồng hoạt động chính trong ứng dụng:
 - **Tạo khoản chi có ảnh:** Chụp hoặc chọn ảnh → Gợi ý số tiền VND thông minh → Chọn danh mục → Lưu nhanh trong 3 giây.
