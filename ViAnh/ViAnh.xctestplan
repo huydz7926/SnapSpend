@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "986CCBE2-F296-4B15-A995-9E7AD1658C5A",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ViAnh.xcodeproj",
+      "identifier" : "F3D4151B70174AEFBB716921",
+      "name" : "ViAnh"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ViAnh.xcodeproj",
+        "identifier" : "E467BE69309AEEB700CB8E20",
+        "name" : "SnapSpendTest"
+      }
+    }
+  ],
+  "version" : 1
+}

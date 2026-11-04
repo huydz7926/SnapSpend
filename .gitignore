@@ -1,0 +1,99 @@
+# ==========================================
+# SnapSpend iOS Project .gitignore
+# ==========================================
+
+# macOS System Files
+.DS_Store
+*/.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon?
+
+# Xcode & Build Outputs
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.xcarchive
+*.dSYM/
+*.dSYM.zip
+*.xcresult/
+*.log
+
+# Xcode User Data & State
+# (Bỏ qua cấu hình cá nhân nhưng GIỮ LẠI shared schemes và project.pbxproj)
+xcuserdata/
+*.xcuserdatad
+*.xcuserstate
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xccheckout
+*.moved-aside
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Web (nếu có)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & Config Secrets
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Certificates, Private Keys & Provisioning Profiles
+*.p8
+*.p12
+*.mobileprovision
+*.pem
+*.cer
+*.crt
+*.der
+*.key
+*.keystore
+
+# Editor & IDE Personal Configurations
+.vscode/
+.idea/
+
+# AI Tools & Local Agent Context (Loại bỏ khỏi Git công khai, giữ nguyên trên máy)
+.agents/
+.claude/
+
+# Firebase Configuration
+# (Bỏ qua file cấu hình thật và các bản tải trùng; CHỈ GIỮ LẠI file mẫu template)
+*GoogleService-Info*.plist
+!GoogleService-Info.example.plist
+!*/GoogleService-Info.example.plist
+
+# Local backup / temp
+*.orig
+*.swp
+*.bak
+*~

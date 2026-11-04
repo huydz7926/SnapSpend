@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013049B732E34EF2A418C036 /* ViAnh/Views/Journal/ExpenseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA4318D32AC4FA3AEF96F9B /* ViAnh/Views/Journal/ExpenseDetailView.swift */; };
+		08330DAEB0A744D2A4C7AB96 /* ViAnh/Views/AddExpense/CategoryPickerStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685065952FC0481FAC462C4F /* ViAnh/Views/AddExpense/CategoryPickerStep.swift */; };
+		1A15C6403D564D00A781D476 /* ViAnh/Views/Budget/BudgetSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057FA47AF36C4B099884582C /* ViAnh/Views/Budget/BudgetSetupView.swift */; };
+		1AFEF86DD5CF4265A5E3A58E /* ViAnh/Views/AddExpense/ExpenseCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4AF10C780452BA68B964D /* ViAnh/Views/AddExpense/ExpenseCaptureView.swift */; };
+		1D666E6A35804B49954ED7B5 /* ViAnh/Views/Settings/AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58954C0E67584901BA59CBC8 /* ViAnh/Views/Settings/AboutView.swift */; };
+		23C15ABF95BF4BD78704764A /* ViAnh/Services/NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45413DB2DB04CD09D7D7FAD /* ViAnh/Services/NotificationManager.swift */; };
+		2435D63970D04EC9B6A4B134 /* ViAnh/Services/ImageStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDCA2BD9C2443E59E6B6933 /* ViAnh/Services/ImageStorageService.swift */; };
+		25228B53D3334512A5199888 /* ViAnh/Models/ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210F736F124A4C408E9FCD71 /* ViAnh/Models/ExpenseItem.swift */; };
+		25DE8EC1E8A245CC8B919645 /* ViAnh/Models/ExpenseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FA9363DAF40E4A53B7DCE /* ViAnh/Models/ExpenseCategory.swift */; };
+		27465EA423F042ABB23E4601 /* ViAnh/Views/Journal/ExpenseGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159594A6D64A4F61BF2D98A5 /* ViAnh/Views/Journal/ExpenseGridView.swift */; };
+		27EDFF8EBC394AABA18CC851 /* ViAnh/Views/AddExpense/CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31279020CD54F68A7CEA3F5 /* ViAnh/Views/AddExpense/CameraPreviewView.swift */; };
+		2BD824F8D88B4A7EB2D4D5EE /* ViAnh/Views/Dashboard/DashboardToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3B2F543544DBCA7DA45C9 /* ViAnh/Views/Dashboard/DashboardToolbarView.swift */; };
+		2FBBE35CBD7F4714B7D48211 /* ViAnh/Views/Dashboard/DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D0AAEECA645F09255F8AC /* ViAnh/Views/Dashboard/DashboardView.swift */; };
+		35C48D183D124BE1A80A8A15 /* ViAnh/Views/Dashboard/TransactionSummaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8EF0BCBA7946F9A6E16DF1 /* ViAnh/Views/Dashboard/TransactionSummaryCard.swift */; };
+		4072202278EA4803AFE0CAB2 /* ViAnh/Views/Components/EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE375763AB945F18F40A066 /* ViAnh/Views/Components/EmptyStateView.swift */; };
+		4E26F90D8EDC4B5393104DAF /* ViAnh/Views/Dashboard/DashboardFilterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C95CA29DF4E33A9718559 /* ViAnh/Views/Dashboard/DashboardFilterSheet.swift */; };
+		4F0E78407DD54BBBB930B4FF /* ViAnh/Views/Settings/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75495CEC985747B3B457EC24 /* ViAnh/Views/Settings/SettingsView.swift */; };
+		529E811425634E7FA19857C9 /* ViAnh/Views/Components/FloatingPillDockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9279E876E264330817F5C3C /* ViAnh/Views/Components/FloatingPillDockView.swift */; };
+		5A25371D3AD84A80BA94F9C4 /* ViAnh/Views/Dashboard/MonthGridBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D336E8F6E27448B90648D14 /* ViAnh/Views/Dashboard/MonthGridBuilder.swift */; };
+		5F43990707B34320AC25E77E /* ViAnh/Utilities/DateHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB74E8D85AD4DC2834225BB /* ViAnh/Utilities/DateHelpers.swift */; };
+		65C3BE71AEBA4624B6141D04 /* ViAnh/Services/WalletManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160B14BAE28F4BBDA7D505AF /* ViAnh/Services/WalletManager.swift */; };
+		6B4E703455484343A6C70A39 /* ViAnh/Services/CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E012D95766E348ABAC0FE22C /* ViAnh/Services/CameraService.swift */; };
+		701A1618E6EB4029BFBEC5FE /* ViAnh/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDEB7369D4A4069AB297567 /* ViAnh/ContentView.swift */; };
+		771D28459AC04C569F34F635 /* ViAnh/Views/Dashboard/MemoryCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BA704604894E24AF6863DA /* ViAnh/Views/Dashboard/MemoryCalendarView.swift */; };
+		777068B212454C1E85867A3C /* ViAnh/Views/Budget/BudgetProgressCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3939DDA104E378662556A /* ViAnh/Views/Budget/BudgetProgressCard.swift */; };
+		79F8B696662B49E0BFD70A73 /* ViAnh/Views/Journal/PolaroidCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F138AB9DA0CA4468BD4CEFED /* ViAnh/Views/Journal/PolaroidCardView.swift */; };
+		7DC042D3EF3B454BBB13E1AA /* ViAnh/Views/Analytics/AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D201F3C8C08A48B18EEFCA51 /* ViAnh/Views/Analytics/AnalyticsView.swift */; };
+		84BFAAA3DDAC4FE6A360C7C5 /* ViAnh/Views/Components/BudgetStatusBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A23B2B15AB642288923CA0C /* ViAnh/Views/Components/BudgetStatusBadge.swift */; };
+		89446C8EDEEE4388A772F7D8 /* ViAnh/Views/AddExpense/ImagePickerStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523F22AEA964CF39A94EA4D /* ViAnh/Views/AddExpense/ImagePickerStep.swift */; };
+		8CECE65CE5D4449C8BE8AB69 /* ViAnh/Preview Content/PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719C0AB4629A4B628A9CA80C /* ViAnh/Preview Content/PreviewData.swift */; };
+		8F7750B767144F48BFCA777F /* ViAnh/Views/Components/SmartVNDChipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA089498696947F9893008D4 /* ViAnh/Views/Components/SmartVNDChipsView.swift */; };
+		95219ADDC887410BA1D86B86 /* ViAnh/Utilities/HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3738002BDAF4D8DA5358C2C /* ViAnh/Utilities/HapticManager.swift */; };
+		9B7144FAAD9C4C76B7EA0C9D /* ViAnh/Services/CategoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEED4FAE9A54B188F3471C1 /* ViAnh/Services/CategoryManager.swift */; };
+		A2C047EC47ED485C9568350F /* ViAnh/ViAnhApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD461219A3648B992353968 /* ViAnh/ViAnhApp.swift */; };
+		AACEB4705AEA4114AD5E833C /* ViAnh/Views/Journal/ExpenseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DF0EF72E774E21A9843D0E /* ViAnh/Views/Journal/ExpenseListView.swift */; };
+		AD3766039F3741A7B3BC4380 /* ViAnh/Services/CSVExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6A90C7821443B2813883BC /* ViAnh/Services/CSVExportService.swift */; };
+		AEA039D8CA424071A83F9F4E /* ViAnh/Views/Dashboard/DashboardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38D207D54304CA7A81D4278 /* ViAnh/Views/Dashboard/DashboardHeaderView.swift */; };
+		B23034AF6C124D9287E73780 /* ViAnh/Views/Journal/JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B67DC270AF5499B9372ED5A /* ViAnh/Views/Journal/JournalView.swift */; };
+		B5B10001MEMORIESVIEW001 /* ViAnh/Views/Journal/MemoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A10001MEMORIESVIEW001 /* ViAnh/Views/Journal/MemoriesView.swift */; };
+		BF84AF2A9C594DDD89B5B26B /* ViAnh/Views/Components/AsyncThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227742DE0E544169DD118B3 /* ViAnh/Views/Components/AsyncThumbnailView.swift */; };
+		BF940D586C484CFF9A42ADFC /* ViAnh/Views/AddExpense/AmountInputStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AE59B796A249D0B3BD73ED /* ViAnh/Views/AddExpense/AmountInputStep.swift */; };
+		C27A5541223D4188B965DC97 /* ViAnh/Services/BudgetCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E37962289E64B39922AB166 /* ViAnh/Services/BudgetCalculator.swift */; };
+		C5B10002CURRENCYEX000001 /* ViAnh/Services/CurrencyExchangeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A10002CURRENCYEX000001 /* ViAnh/Services/CurrencyExchangeService.swift */; };
+		CEDD39CDC8BD4DD88314F8AC /* ViAnh/Utilities/VNDFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B19C703A8425FA3BC708A /* ViAnh/Utilities/VNDFormatter.swift */; };
+		CF8F1D1CF0C145388ECFFFB7 /* ViAnh/Models/MonthlyBudget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB84D2156B1F4DDBBDC63735 /* ViAnh/Models/MonthlyBudget.swift */; };
+		D39D41AA5E034E67AE244FC1 /* ViAnh/Views/AddExpense/AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278FBF11F3140FA97DF91DD /* ViAnh/Views/AddExpense/AddExpenseView.swift */; };
+		D3C3D0721FDD4D40AADE03BA /* ViAnh/Utilities/ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EA1A2E254F2DAEBBEB81 /* ViAnh/Utilities/ThemeManager.swift */; };
+		D5B10003LOCALIZATION001 /* ViAnh/Services/LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A10003LOCALIZATION001 /* ViAnh/Services/LocalizationManager.swift */; };
+		DD08A0537A2A4528BF0A38F0 /* ViAnh/Views/Budget/BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614BEAA2699245999DD262F9 /* ViAnh/Views/Budget/BudgetView.swift */; };
+		DDC6679170AD4DCF9BC1CC18 /* ViAnh/Views/Settings/WalletManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2FF369E976439293B345BD /* ViAnh/Views/Settings/WalletManagementView.swift */; };
+		E40BCACC309A381600B0490C /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = E40BCACB309A381600B0490C /* GoogleService-Info (1).plist */; };
+		E5B10004AUTHSERV0000001 /* ViAnh/Services/AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A10004AUTHSERV0000001 /* ViAnh/Services/AuthService.swift */; };
+		E5B10005AUTHVIEW0000001 /* ViAnh/Views/Auth/AuthWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A10005AUTHVIEW0000001 /* ViAnh/Views/Auth/AuthWelcomeView.swift */; };
+		E72C81ADE676427091FC63D3 /* ViAnh/Views/Settings/DataPrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0994D9C28D42C49F2E3CBC /* ViAnh/Views/Settings/DataPrivacyView.swift */; };
+		EBEB22C845244D29926F5ACB /* ViAnh/Views/Dashboard/RecentExpenseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11389AC98CCE49C99B5AC303 /* ViAnh/Views/Dashboard/RecentExpenseRow.swift */; };
+		F01E1E8834DF42E480ACB334 /* ViAnh/Models/Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA66736B40B749BC941A7DF2 /* ViAnh/Models/Wallet.swift */; };
+		F5B10006AVATARSERV001 /* ViAnh/Services/ProfileAvatarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A10006AVATARSERV001 /* ViAnh/Services/ProfileAvatarService.swift */; };
+		F5B10007AVATARCROP001 /* ViAnh/Views/Components/AvatarCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A10007AVATARCROP001 /* ViAnh/Views/Components/AvatarCropView.swift */; };
+		F5B10008USERAVATAR001 /* ViAnh/Views/Components/UserAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A10008USERAVATAR001 /* ViAnh/Views/Components/UserAvatarView.swift */; };
+		F6B10009MIGRATIONSERV001 /* ViAnh/Services/DataOwnerMigrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A10009MIGRATIONSERV001 /* ViAnh/Services/DataOwnerMigrationService.swift */; };
+		F7B10010ASSETS000000001 /* ViAnh/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A10010ASSETS000000001 /* ViAnh/Assets.xcassets */; };
+		F88D0BBAAB8A4735B2B72D1D /* ViAnh/Services/StreakService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4C821EFFE34FA09220B0A4 /* ViAnh/Services/StreakService.swift */; };
+		FC0F72C4581542F9B35F2601 /* ViAnh/Views/Settings/CategoryManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2190B02524354BF289459564 /* ViAnh/Views/Settings/CategoryManagementView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E467BE6E309AEEB700CB8E20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0350B95F7D1E432E8A28A180 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3D4151B70174AEFBB716921;
+			remoteInfo = ViAnh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02AE59B796A249D0B3BD73ED /* ViAnh/Views/AddExpense/AmountInputStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/AddExpense/AmountInputStep.swift; sourceTree = "<group>"; };
+		057FA47AF36C4B099884582C /* ViAnh/Views/Budget/BudgetSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Budget/BudgetSetupView.swift; sourceTree = "<group>"; };
+		0AA4318D32AC4FA3AEF96F9B /* ViAnh/Views/Journal/ExpenseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Journal/ExpenseDetailView.swift; sourceTree = "<group>"; };
+		0D2FF369E976439293B345BD /* ViAnh/Views/Settings/WalletManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Settings/WalletManagementView.swift; sourceTree = "<group>"; };
+		0F4C821EFFE34FA09220B0A4 /* ViAnh/Services/StreakService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Services/StreakService.swift; sourceTree = "<group>"; };
+		11389AC98CCE49C99B5AC303 /* ViAnh/Views/Dashboard/RecentExpenseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Dashboard/RecentExpenseRow.swift; sourceTree = "<group>"; };
+		159594A6D64A4F61BF2D98A5 /* ViAnh/Views/Journal/ExpenseGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Journal/ExpenseGridView.swift; sourceTree = "<group>"; };
+		160B14BAE28F4BBDA7D505AF /* ViAnh/Services/WalletManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Services/WalletManager.swift; sourceTree = "<group>"; };
+		1E37962289E64B39922AB166 /* ViAnh/Services/BudgetCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Services/BudgetCalculator.swift; sourceTree = "<group>"; };
+		1FB3939DDA104E378662556A /* ViAnh/Views/Budget/BudgetProgressCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Budget/BudgetProgressCard.swift; sourceTree = "<group>"; };
+		210F736F124A4C408E9FCD71 /* ViAnh/Models/ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Models/ExpenseItem.swift; sourceTree = "<group>"; };
+		2190B02524354BF289459564 /* ViAnh/Views/Settings/CategoryManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Settings/CategoryManagementView.swift; sourceTree = "<group>"; };
+		224C95CA29DF4E33A9718559 /* ViAnh/Views/Dashboard/DashboardFilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Dashboard/DashboardFilterSheet.swift; sourceTree = "<group>"; };
+		2A23B2B15AB642288923CA0C /* ViAnh/Views/Components/BudgetStatusBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Components/BudgetStatusBadge.swift; sourceTree = "<group>"; };
+		3C0994D9C28D42C49F2E3CBC /* ViAnh/Views/Settings/DataPrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Settings/DataPrivacyView.swift; sourceTree = "<group>"; };
+		3C6FA9363DAF40E4A53B7DCE /* ViAnh/Models/ExpenseCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Models/ExpenseCategory.swift; sourceTree = "<group>"; };
+		3D336E8F6E27448B90648D14 /* ViAnh/Views/Dashboard/MonthGridBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Dashboard/MonthGridBuilder.swift; sourceTree = "<group>"; };
+		3E6A90C7821443B2813883BC /* ViAnh/Services/CSVExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Services/CSVExportService.swift; sourceTree = "<group>"; };
+		3F70EA1A2E254F2DAEBBEB81 /* ViAnh/Utilities/ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Utilities/ThemeManager.swift; sourceTree = "<group>"; };
+		58954C0E67584901BA59CBC8 /* ViAnh/Views/Settings/AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Settings/AboutView.swift; sourceTree = "<group>"; };
+		5DDCA2BD9C2443E59E6B6933 /* ViAnh/Services/ImageStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Services/ImageStorageService.swift; sourceTree = "<group>"; };
+		610D0AAEECA645F09255F8AC /* ViAnh/Views/Dashboard/DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Dashboard/DashboardView.swift; sourceTree = "<group>"; };
+		614BEAA2699245999DD262F9 /* ViAnh/Views/Budget/BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Budget/BudgetView.swift; sourceTree = "<group>"; };
+		61DF0EF72E774E21A9843D0E /* ViAnh/Views/Journal/ExpenseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Journal/ExpenseListView.swift; sourceTree = "<group>"; };
+		685065952FC0481FAC462C4F /* ViAnh/Views/AddExpense/CategoryPickerStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/AddExpense/CategoryPickerStep.swift; sourceTree = "<group>"; };
+		6AD461219A3648B992353968 /* ViAnh/ViAnhApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/ViAnhApp.swift; sourceTree = "<group>"; };
+		719C0AB4629A4B628A9CA80C /* ViAnh/Preview Content/PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViAnh/Preview Content/PreviewData.swift"; sourceTree = "<group>"; };
+		7523F22AEA964CF39A94EA4D /* ViAnh/Views/AddExpense/ImagePickerStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/AddExpense/ImagePickerStep.swift; sourceTree = "<group>"; };
+		75495CEC985747B3B457EC24 /* ViAnh/Views/Settings/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		8B67DC270AF5499B9372ED5A /* ViAnh/Views/Journal/JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Journal/JournalView.swift; sourceTree = "<group>"; };
+		96AFA1520D624CA9960341D9 /* ViAnh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViAnh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE375763AB945F18F40A066 /* ViAnh/Views/Components/EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Components/EmptyStateView.swift; sourceTree = "<group>"; };
+		9F5B19C703A8425FA3BC708A /* ViAnh/Utilities/VNDFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Utilities/VNDFormatter.swift; sourceTree = "<group>"; };
+		A38D207D54304CA7A81D4278 /* ViAnh/Views/Dashboard/DashboardHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Dashboard/DashboardHeaderView.swift; sourceTree = "<group>"; };
+		ACC4AF10C780452BA68B964D /* ViAnh/Views/AddExpense/ExpenseCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/AddExpense/ExpenseCaptureView.swift; sourceTree = "<group>"; };
+		B45413DB2DB04CD09D7D7FAD /* ViAnh/Services/NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Services/NotificationManager.swift; sourceTree = "<group>"; };
+		B5A10001MEMORIESVIEW001 /* ViAnh/Views/Journal/MemoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Journal/MemoriesView.swift; sourceTree = "<group>"; };
+		B9BA704604894E24AF6863DA /* ViAnh/Views/Dashboard/MemoryCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Dashboard/MemoryCalendarView.swift; sourceTree = "<group>"; };
+		BA089498696947F9893008D4 /* ViAnh/Views/Components/SmartVNDChipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Components/SmartVNDChipsView.swift; sourceTree = "<group>"; };
+		BAEED4FAE9A54B188F3471C1 /* ViAnh/Services/CategoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Services/CategoryManager.swift; sourceTree = "<group>"; };
+		BEDEB7369D4A4069AB297567 /* ViAnh/ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/ContentView.swift; sourceTree = "<group>"; };
+		C3738002BDAF4D8DA5358C2C /* ViAnh/Utilities/HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Utilities/HapticManager.swift; sourceTree = "<group>"; };
+		C5A10002CURRENCYEX000001 /* ViAnh/Services/CurrencyExchangeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Services/CurrencyExchangeService.swift; sourceTree = "<group>"; };
+		CA66736B40B749BC941A7DF2 /* ViAnh/Models/Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Models/Wallet.swift; sourceTree = "<group>"; };
+		CB84D2156B1F4DDBBDC63735 /* ViAnh/Models/MonthlyBudget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Models/MonthlyBudget.swift; sourceTree = "<group>"; };
+		D201F3C8C08A48B18EEFCA51 /* ViAnh/Views/Analytics/AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Analytics/AnalyticsView.swift; sourceTree = "<group>"; };
+		D5A10003LOCALIZATION001 /* ViAnh/Services/LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Services/LocalizationManager.swift; sourceTree = "<group>"; };
+		E012D95766E348ABAC0FE22C /* ViAnh/Services/CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Services/CameraService.swift; sourceTree = "<group>"; };
+		E227742DE0E544169DD118B3 /* ViAnh/Views/Components/AsyncThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Components/AsyncThumbnailView.swift; sourceTree = "<group>"; };
+		E40BCACA309A1F5D00B0490C /* ViAnh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ViAnh.entitlements; path = ViAnh/ViAnh.entitlements; sourceTree = "<group>"; };
+		E40BCACB309A381600B0490C /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		E467BE6A309AEEB700CB8E20 /* SnapSpendTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapSpendTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A0C622309AF1480079272F /* ViAnh.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ViAnh.xctestplan; sourceTree = "<group>"; };
+		E5A10004AUTHSERV0000001 /* ViAnh/Services/AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Services/AuthService.swift; sourceTree = "<group>"; };
+		E5A10005AUTHVIEW0000001 /* ViAnh/Views/Auth/AuthWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Auth/AuthWelcomeView.swift; sourceTree = "<group>"; };
+		E9279E876E264330817F5C3C /* ViAnh/Views/Components/FloatingPillDockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Components/FloatingPillDockView.swift; sourceTree = "<group>"; };
+		EB8EF0BCBA7946F9A6E16DF1 /* ViAnh/Views/Dashboard/TransactionSummaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Dashboard/TransactionSummaryCard.swift; sourceTree = "<group>"; };
+		F138AB9DA0CA4468BD4CEFED /* ViAnh/Views/Journal/PolaroidCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Journal/PolaroidCardView.swift; sourceTree = "<group>"; };
+		F278FBF11F3140FA97DF91DD /* ViAnh/Views/AddExpense/AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/AddExpense/AddExpenseView.swift; sourceTree = "<group>"; };
+		F31279020CD54F68A7CEA3F5 /* ViAnh/Views/AddExpense/CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/AddExpense/CameraPreviewView.swift; sourceTree = "<group>"; };
+		F4A3B2F543544DBCA7DA45C9 /* ViAnh/Views/Dashboard/DashboardToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Dashboard/DashboardToolbarView.swift; sourceTree = "<group>"; };
+		F5A10006AVATARSERV001 /* ViAnh/Services/ProfileAvatarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Services/ProfileAvatarService.swift; sourceTree = "<group>"; };
+		F5A10007AVATARCROP001 /* ViAnh/Views/Components/AvatarCropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Components/AvatarCropView.swift; sourceTree = "<group>"; };
+		F5A10008USERAVATAR001 /* ViAnh/Views/Components/UserAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Views/Components/UserAvatarView.swift; sourceTree = "<group>"; };
+		F5C10008INFOPLIST00001 /* ViAnh/Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ViAnh/Info.plist; sourceTree = "<group>"; };
+		F6A10009MIGRATIONSERV001 /* ViAnh/Services/DataOwnerMigrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Services/DataOwnerMigrationService.swift; sourceTree = "<group>"; };
+		F7A10010ASSETS000000001 /* ViAnh/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ViAnh/Assets.xcassets; sourceTree = "<group>"; };
+		FCB74E8D85AD4DC2834225BB /* ViAnh/Utilities/DateHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAnh/Utilities/DateHelpers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E467BE6B309AEEB700CB8E20 /* SnapSpendTest */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SnapSpendTest; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19528DDE94124F5BBC0EF640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E467BE67309AEEB700CB8E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9018D1861D9948CD9E07E7D2 = {
+			isa = PBXGroup;
+			children = (
+				E4A0C622309AF1480079272F /* ViAnh.xctestplan */,
+				G1_FRONTEND0000000001 /* 1_Frontend */,
+				G2_BACKEND00000000001 /* 2_Backend */,
+				G3_API000000000000001 /* 3_API */,
+				G4_SECURITY0000000001 /* 4_Security */,
+				G5_CONFIG000000000001 /* Configuration & App */,
+				E467BE6B309AEEB700CB8E20 /* SnapSpendTest */,
+				96D6CE89D6EB453E8AE975C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96D6CE89D6EB453E8AE975C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96AFA1520D624CA9960341D9 /* ViAnh.app */,
+				E467BE6A309AEEB700CB8E20 /* SnapSpendTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		G1_FRONTEND0000000001 /* 1_Frontend */ = {
+			isa = PBXGroup;
+			children = (
+				BEDEB7369D4A4069AB297567 /* ViAnh/ContentView.swift */,
+				F7A10010ASSETS000000001 /* ViAnh/Assets.xcassets */,
+				610D0AAEECA645F09255F8AC /* ViAnh/Views/Dashboard/DashboardView.swift */,
+				A38D207D54304CA7A81D4278 /* ViAnh/Views/Dashboard/DashboardHeaderView.swift */,
+				F4A3B2F543544DBCA7DA45C9 /* ViAnh/Views/Dashboard/DashboardToolbarView.swift */,
+				224C95CA29DF4E33A9718559 /* ViAnh/Views/Dashboard/DashboardFilterSheet.swift */,
+				B9BA704604894E24AF6863DA /* ViAnh/Views/Dashboard/MemoryCalendarView.swift */,
+				3D336E8F6E27448B90648D14 /* ViAnh/Views/Dashboard/MonthGridBuilder.swift */,
+				11389AC98CCE49C99B5AC303 /* ViAnh/Views/Dashboard/RecentExpenseRow.swift */,
+				EB8EF0BCBA7946F9A6E16DF1 /* ViAnh/Views/Dashboard/TransactionSummaryCard.swift */,
+				F278FBF11F3140FA97DF91DD /* ViAnh/Views/AddExpense/AddExpenseView.swift */,
+				02AE59B796A249D0B3BD73ED /* ViAnh/Views/AddExpense/AmountInputStep.swift */,
+				F31279020CD54F68A7CEA3F5 /* ViAnh/Views/AddExpense/CameraPreviewView.swift */,
+				ACC4AF10C780452BA68B964D /* ViAnh/Views/AddExpense/ExpenseCaptureView.swift */,
+				685065952FC0481FAC462C4F /* ViAnh/Views/AddExpense/CategoryPickerStep.swift */,
+				7523F22AEA964CF39A94EA4D /* ViAnh/Views/AddExpense/ImagePickerStep.swift */,
+				E012D95766E348ABAC0FE22C /* ViAnh/Services/CameraService.swift */,
+				8B67DC270AF5499B9372ED5A /* ViAnh/Views/Journal/JournalView.swift */,
+				B5A10001MEMORIESVIEW001 /* ViAnh/Views/Journal/MemoriesView.swift */,
+				0AA4318D32AC4FA3AEF96F9B /* ViAnh/Views/Journal/ExpenseDetailView.swift */,
+				159594A6D64A4F61BF2D98A5 /* ViAnh/Views/Journal/ExpenseGridView.swift */,
+				61DF0EF72E774E21A9843D0E /* ViAnh/Views/Journal/ExpenseListView.swift */,
+				F138AB9DA0CA4468BD4CEFED /* ViAnh/Views/Journal/PolaroidCardView.swift */,
+				614BEAA2699245999DD262F9 /* ViAnh/Views/Budget/BudgetView.swift */,
+				1FB3939DDA104E378662556A /* ViAnh/Views/Budget/BudgetProgressCard.swift */,
+				057FA47AF36C4B099884582C /* ViAnh/Views/Budget/BudgetSetupView.swift */,
+				D201F3C8C08A48B18EEFCA51 /* ViAnh/Views/Analytics/AnalyticsView.swift */,
+				75495CEC985747B3B457EC24 /* ViAnh/Views/Settings/SettingsView.swift */,
+				58954C0E67584901BA59CBC8 /* ViAnh/Views/Settings/AboutView.swift */,
+				2190B02524354BF289459564 /* ViAnh/Views/Settings/CategoryManagementView.swift */,
+				0D2FF369E976439293B345BD /* ViAnh/Views/Settings/WalletManagementView.swift */,
+				3C0994D9C28D42C49F2E3CBC /* ViAnh/Views/Settings/DataPrivacyView.swift */,
+				E5A10005AUTHVIEW0000001 /* ViAnh/Views/Auth/AuthWelcomeView.swift */,
+				F5A10007AVATARCROP001 /* ViAnh/Views/Components/AvatarCropView.swift */,
+				F5A10008USERAVATAR001 /* ViAnh/Views/Components/UserAvatarView.swift */,
+				BA089498696947F9893008D4 /* ViAnh/Views/Components/SmartVNDChipsView.swift */,
+				E9279E876E264330817F5C3C /* ViAnh/Views/Components/FloatingPillDockView.swift */,
+				2A23B2B15AB642288923CA0C /* ViAnh/Views/Components/BudgetStatusBadge.swift */,
+				E227742DE0E544169DD118B3 /* ViAnh/Views/Components/AsyncThumbnailView.swift */,
+				9BE375763AB945F18F40A066 /* ViAnh/Views/Components/EmptyStateView.swift */,
+				3F70EA1A2E254F2DAEBBEB81 /* ViAnh/Utilities/ThemeManager.swift */,
+				C3738002BDAF4D8DA5358C2C /* ViAnh/Utilities/HapticManager.swift */,
+				9F5B19C703A8425FA3BC708A /* ViAnh/Utilities/VNDFormatter.swift */,
+				FCB74E8D85AD4DC2834225BB /* ViAnh/Utilities/DateHelpers.swift */,
+				719C0AB4629A4B628A9CA80C /* ViAnh/Preview Content/PreviewData.swift */,
+			);
+			name = 1_Frontend;
+			sourceTree = "<group>";
+		};
+		G2_BACKEND00000000001 /* 2_Backend */ = {
+			isa = PBXGroup;
+			children = (
+				210F736F124A4C408E9FCD71 /* ViAnh/Models/ExpenseItem.swift */,
+				3C6FA9363DAF40E4A53B7DCE /* ViAnh/Models/ExpenseCategory.swift */,
+				CB84D2156B1F4DDBBDC63735 /* ViAnh/Models/MonthlyBudget.swift */,
+				CA66736B40B749BC941A7DF2 /* ViAnh/Models/Wallet.swift */,
+				5DDCA2BD9C2443E59E6B6933 /* ViAnh/Services/ImageStorageService.swift */,
+				BAEED4FAE9A54B188F3471C1 /* ViAnh/Services/CategoryManager.swift */,
+				160B14BAE28F4BBDA7D505AF /* ViAnh/Services/WalletManager.swift */,
+				1E37962289E64B39922AB166 /* ViAnh/Services/BudgetCalculator.swift */,
+				0F4C821EFFE34FA09220B0A4 /* ViAnh/Services/StreakService.swift */,
+			);
+			name = 2_Backend;
+			sourceTree = "<group>";
+		};
+		G3_API000000000000001 /* 3_API */ = {
+			isa = PBXGroup;
+			children = (
+				C5A10002CURRENCYEX000001 /* ViAnh/Services/CurrencyExchangeService.swift */,
+				B45413DB2DB04CD09D7D7FAD /* ViAnh/Services/NotificationManager.swift */,
+				3E6A90C7821443B2813883BC /* ViAnh/Services/CSVExportService.swift */,
+				D5A10003LOCALIZATION001 /* ViAnh/Services/LocalizationManager.swift */,
+			);
+			name = 3_API;
+			sourceTree = "<group>";
+		};
+		G4_SECURITY0000000001 /* 4_Security */ = {
+			isa = PBXGroup;
+			children = (
+				E5A10004AUTHSERV0000001 /* ViAnh/Services/AuthService.swift */,
+				F5A10006AVATARSERV001 /* ViAnh/Services/ProfileAvatarService.swift */,
+				F6A10009MIGRATIONSERV001 /* ViAnh/Services/DataOwnerMigrationService.swift */,
+				E40BCACA309A1F5D00B0490C /* ViAnh.entitlements */,
+			);
+			name = 4_Security;
+			sourceTree = "<group>";
+		};
+		G5_CONFIG000000000001 /* Configuration & App */ = {
+			isa = PBXGroup;
+			children = (
+				6AD461219A3648B992353968 /* ViAnh/ViAnhApp.swift */,
+				F5C10008INFOPLIST00001 /* ViAnh/Info.plist */,
+				E40BCACB309A381600B0490C /* GoogleService-Info (1).plist */,
+			);
+			name = "Configuration & App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E467BE69309AEEB700CB8E20 /* SnapSpendTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E467BE72309AEEB700CB8E20 /* Build configuration list for PBXNativeTarget "SnapSpendTest" */;
+			buildPhases = (
+				E467BE66309AEEB700CB8E20 /* Sources */,
+				E467BE67309AEEB700CB8E20 /* Frameworks */,
+				E467BE68309AEEB700CB8E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E467BE6F309AEEB700CB8E20 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E467BE6B309AEEB700CB8E20 /* SnapSpendTest */,
+			);
+			name = SnapSpendTest;
+			packageProductDependencies = (
+			);
+			productName = SnapSpendTest;
+			productReference = E467BE6A309AEEB700CB8E20 /* SnapSpendTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3D4151B70174AEFBB716921 /* ViAnh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D05C53C8DC45BAB333B765 /* Build configuration list for PBXNativeTarget "ViAnh" */;
+			buildPhases = (
+				B30858E241E54C4188368C12 /* Sources */,
+				19528DDE94124F5BBC0EF640 /* Frameworks */,
+				374B3E56E30B4B51B23AC2E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViAnh;
+			productName = ViAnh;
+			productReference = 96AFA1520D624CA9960341D9 /* ViAnh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0350B95F7D1E432E8A28A180 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					E467BE69309AEEB700CB8E20 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = F3D4151B70174AEFBB716921;
+					};
+					F3D4151B70174AEFBB716921 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = D6CAFD0F32B24A38A4ABEC35 /* Build configuration list for PBXProject "ViAnh" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9018D1861D9948CD9E07E7D2;
+			productRefGroup = 96D6CE89D6EB453E8AE975C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3D4151B70174AEFBB716921 /* ViAnh */,
+				E467BE69309AEEB700CB8E20 /* SnapSpendTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		374B3E56E30B4B51B23AC2E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40BCACC309A381600B0490C /* GoogleService-Info (1).plist in Resources */,
+				F7B10010ASSETS000000001 /* ViAnh/Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E467BE68309AEEB700CB8E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B30858E241E54C4188368C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B10001MEMORIESVIEW001 /* ViAnh/Views/Journal/MemoriesView.swift in Sources */,
+				C5B10002CURRENCYEX000001 /* ViAnh/Services/CurrencyExchangeService.swift in Sources */,
+				D5B10003LOCALIZATION001 /* ViAnh/Services/LocalizationManager.swift in Sources */,
+				E5B10004AUTHSERV0000001 /* ViAnh/Services/AuthService.swift in Sources */,
+				E5B10005AUTHVIEW0000001 /* ViAnh/Views/Auth/AuthWelcomeView.swift in Sources */,
+				F5B10006AVATARSERV001 /* ViAnh/Services/ProfileAvatarService.swift in Sources */,
+				F6B10009MIGRATIONSERV001 /* ViAnh/Services/DataOwnerMigrationService.swift in Sources */,
+				F5B10007AVATARCROP001 /* ViAnh/Views/Components/AvatarCropView.swift in Sources */,
+				F5B10008USERAVATAR001 /* ViAnh/Views/Components/UserAvatarView.swift in Sources */,
+				F88D0BBAAB8A4735B2B72D1D /* ViAnh/Services/StreakService.swift in Sources */,
+				7DC042D3EF3B454BBB13E1AA /* ViAnh/Views/Analytics/AnalyticsView.swift in Sources */,
+				23C15ABF95BF4BD78704764A /* ViAnh/Services/NotificationManager.swift in Sources */,
+				DDC6679170AD4DCF9BC1CC18 /* ViAnh/Views/Settings/WalletManagementView.swift in Sources */,
+				6B4E703455484343A6C70A39 /* ViAnh/Services/CameraService.swift in Sources */,
+				27EDFF8EBC394AABA18CC851 /* ViAnh/Views/AddExpense/CameraPreviewView.swift in Sources */,
+				1AFEF86DD5CF4265A5E3A58E /* ViAnh/Views/AddExpense/ExpenseCaptureView.swift in Sources */,
+				1D666E6A35804B49954ED7B5 /* ViAnh/Views/Settings/AboutView.swift in Sources */,
+				D39D41AA5E034E67AE244FC1 /* ViAnh/Views/AddExpense/AddExpenseView.swift in Sources */,
+				BF940D586C484CFF9A42ADFC /* ViAnh/Views/AddExpense/AmountInputStep.swift in Sources */,
+				BF84AF2A9C594DDD89B5B26B /* ViAnh/Views/Components/AsyncThumbnailView.swift in Sources */,
+				C27A5541223D4188B965DC97 /* ViAnh/Services/BudgetCalculator.swift in Sources */,
+				777068B212454C1E85867A3C /* ViAnh/Views/Budget/BudgetProgressCard.swift in Sources */,
+				1A15C6403D564D00A781D476 /* ViAnh/Views/Budget/BudgetSetupView.swift in Sources */,
+				84BFAAA3DDAC4FE6A360C7C5 /* ViAnh/Views/Components/BudgetStatusBadge.swift in Sources */,
+				DD08A0537A2A4528BF0A38F0 /* ViAnh/Views/Budget/BudgetView.swift in Sources */,
+				AD3766039F3741A7B3BC4380 /* ViAnh/Services/CSVExportService.swift in Sources */,
+				FC0F72C4581542F9B35F2601 /* ViAnh/Views/Settings/CategoryManagementView.swift in Sources */,
+				9B7144FAAD9C4C76B7EA0C9D /* ViAnh/Services/CategoryManager.swift in Sources */,
+				08330DAEB0A744D2A4C7AB96 /* ViAnh/Views/AddExpense/CategoryPickerStep.swift in Sources */,
+				701A1618E6EB4029BFBEC5FE /* ViAnh/ContentView.swift in Sources */,
+				4E26F90D8EDC4B5393104DAF /* ViAnh/Views/Dashboard/DashboardFilterSheet.swift in Sources */,
+				AEA039D8CA424071A83F9F4E /* ViAnh/Views/Dashboard/DashboardHeaderView.swift in Sources */,
+				2BD824F8D88B4A7EB2D4D5EE /* ViAnh/Views/Dashboard/DashboardToolbarView.swift in Sources */,
+				2FBBE35CBD7F4714B7D48211 /* ViAnh/Views/Dashboard/DashboardView.swift in Sources */,
+				E72C81ADE676427091FC63D3 /* ViAnh/Views/Settings/DataPrivacyView.swift in Sources */,
+				5F43990707B34320AC25E77E /* ViAnh/Utilities/DateHelpers.swift in Sources */,
+				4072202278EA4803AFE0CAB2 /* ViAnh/Views/Components/EmptyStateView.swift in Sources */,
+				25DE8EC1E8A245CC8B919645 /* ViAnh/Models/ExpenseCategory.swift in Sources */,
+				013049B732E34EF2A418C036 /* ViAnh/Views/Journal/ExpenseDetailView.swift in Sources */,
+				27465EA423F042ABB23E4601 /* ViAnh/Views/Journal/ExpenseGridView.swift in Sources */,
+				25228B53D3334512A5199888 /* ViAnh/Models/ExpenseItem.swift in Sources */,
+				AACEB4705AEA4114AD5E833C /* ViAnh/Views/Journal/ExpenseListView.swift in Sources */,
+				529E811425634E7FA19857C9 /* ViAnh/Views/Components/FloatingPillDockView.swift in Sources */,
+				95219ADDC887410BA1D86B86 /* ViAnh/Utilities/HapticManager.swift in Sources */,
+				89446C8EDEEE4388A772F7D8 /* ViAnh/Views/AddExpense/ImagePickerStep.swift in Sources */,
+				2435D63970D04EC9B6A4B134 /* ViAnh/Services/ImageStorageService.swift in Sources */,
+				B23034AF6C124D9287E73780 /* ViAnh/Views/Journal/JournalView.swift in Sources */,
+				771D28459AC04C569F34F635 /* ViAnh/Views/Dashboard/MemoryCalendarView.swift in Sources */,
+				5A25371D3AD84A80BA94F9C4 /* ViAnh/Views/Dashboard/MonthGridBuilder.swift in Sources */,
+				CF8F1D1CF0C145388ECFFFB7 /* ViAnh/Models/MonthlyBudget.swift in Sources */,
+				79F8B696662B49E0BFD70A73 /* ViAnh/Views/Journal/PolaroidCardView.swift in Sources */,
+				8CECE65CE5D4449C8BE8AB69 /* ViAnh/Preview Content/PreviewData.swift in Sources */,
+				EBEB22C845244D29926F5ACB /* ViAnh/Views/Dashboard/RecentExpenseRow.swift in Sources */,
+				4F0E78407DD54BBBB930B4FF /* ViAnh/Views/Settings/SettingsView.swift in Sources */,
+				8F7750B767144F48BFCA777F /* ViAnh/Views/Components/SmartVNDChipsView.swift in Sources */,
+				D3C3D0721FDD4D40AADE03BA /* ViAnh/Utilities/ThemeManager.swift in Sources */,
+				35C48D183D124BE1A80A8A15 /* ViAnh/Views/Dashboard/TransactionSummaryCard.swift in Sources */,
+				CEDD39CDC8BD4DD88314F8AC /* ViAnh/Utilities/VNDFormatter.swift in Sources */,
+				A2C047EC47ED485C9568350F /* ViAnh/ViAnhApp.swift in Sources */,
+				F01E1E8834DF42E480ACB334 /* ViAnh/Models/Wallet.swift in Sources */,
+				65C3BE71AEBA4624B6141D04 /* ViAnh/Services/WalletManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E467BE66309AEEB700CB8E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E467BE6F309AEEB700CB8E20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3D4151B70174AEFBB716921 /* ViAnh */;
+			targetProxy = E467BE6E309AEEB700CB8E20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07C1115DE90E48FEA84A06EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ViAnh/ViAnh.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2HLF6M4TZ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ViAnh/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gianghuy.snapspend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		42C16DEB0B2A4B39A1CB098E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ViAnh/ViAnh.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2HLF6M4TZ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ViAnh/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gianghuy.snapspend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		586C00F81D0C4C4A9AC2F1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5Z73BW7X4C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7E1512EF340A443F8FFA260E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5Z73BW7X4C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E467BE70309AEEB700CB8E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2HLF6M4TZ5;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = conan.SnapSpendTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViAnh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ViAnh";
+			};
+			name = Debug;
+		};
+		E467BE71309AEEB700CB8E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2HLF6M4TZ5;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = conan.SnapSpendTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViAnh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ViAnh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26D05C53C8DC45BAB333B765 /* Build configuration list for PBXNativeTarget "ViAnh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C1115DE90E48FEA84A06EA /* Debug */,
+				42C16DEB0B2A4B39A1CB098E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CAFD0F32B24A38A4ABEC35 /* Build configuration list for PBXProject "ViAnh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586C00F81D0C4C4A9AC2F1B8 /* Debug */,
+				7E1512EF340A443F8FFA260E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E467BE72309AEEB700CB8E20 /* Build configuration list for PBXNativeTarget "SnapSpendTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E467BE70309AEEB700CB8E20 /* Debug */,
+				E467BE71309AEEB700CB8E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0350B95F7D1E432E8A28A180 /* Project object */;
+}

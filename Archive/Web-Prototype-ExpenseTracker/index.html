@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi Tiêu Cá Nhân</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <header class="header card">
+      <h1>Chi Tiêu Cá Nhân</h1>
+      <p class="subtitle">Theo dõi và quản lý chi tiêu hàng ngày</p>
+    </header>
+
+    <section class="card form-card">
+      <h2>Thêm khoản chi mới</h2>
+      <form id="expense-form">
+        <div class="form-group">
+          <label for="amount">Số tiền (₫)</label>
+          <input type="number" id="amount" name="amount" min="1" step="1000" placeholder="Ví dụ: 35000" required>
+        </div>
+        <div class="form-group">
+          <label for="note">Ghi chú</label>
+          <input type="text" id="note" name="note" maxlength="100" placeholder="Ví dụ: Cà phê" required>
+        </div>
+        <p id="form-error" class="form-error"></p>
+        <button type="submit" class="btn btn-primary">Lưu khoản chi</button>
+      </form>
+    </section>
+
+    <section class="card list-card">
+      <div class="list-header">
+        <h2>Danh sách khoản chi</h2>
+      </div>
+      <div id="expense-list"></div>
+    </section>
+
+    <footer class="card footer-card">
+      <div class="total-wrapper">
+        <span class="total-label">Tổng chi tiêu:</span>
+        <span id="total-amount" class="total-value">0 ₫</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="storage.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
